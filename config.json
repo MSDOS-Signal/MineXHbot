@@ -50,9 +50,9 @@
   ],
   "actions": [
     { "id": "sleep", "value": 5000 },
-    { "id": "command", "value": "reg 15185279411tink 15185279411tink" },
+    { "id": "command", "value": "reg <你的密码> <重复你的密码>" },
     { "id": "sleep", "value": 1000 },
-    { "id": "command", "value": "l 15185279411tink" },
+    { "id": "command", "value": "l <你的密码>" },
     { "id": "sleep", "value": 2000 },
     { "id": "command", "value": "warp 资源" },
     { "id": "sleep", "value": 8000 },
