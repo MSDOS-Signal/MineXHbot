@@ -1,0 +1,111 @@
+{
+  "version": "1.21.10",
+  "server": {
+    "address": "你的服务器ip",
+    "port": 25565
+  },
+  "bot": {
+    "join-interval": 100,
+    "reconnect-delay": {
+      "min": 100,
+      "max": 200
+    }
+  },
+  "bot-names": [
+    "Kiilo",
+    "Bupu_oo",
+    "coco_z",
+    "pod_kkm",
+    "mipo_ka",
+    "B_apex",
+    "Ker_mulo",
+    "Loomi",
+    "Kiti_kk",
+    "kaka_r",
+    "ril_zzt",
+    "zilu_bo",
+    "C_orbus",
+    "Tin_paza",
+    "Puudo",
+    "Nunu_pp",
+    "yoyo_t",
+    "wup_llv",
+    "tepu_ri",
+    "D_ynamo",
+    "Gol_virix",
+    "Veeti",
+    "Sasa_ll",
+    "bobo_v",
+    "xeq_ppy",
+    "kova_ni",
+    "F_racto",
+    "Nur_keto",
+    "Zooru",
+    "Wowo_mm",
+    "nene_x",
+    "vub_nnd",
+    "weli_zu",
+    "G_lacier",
+    "Paz_limon"
+  ],
+  "actions": [
+    { "id": "sleep", "value": 5000 },
+    { "id": "command", "value": "reg 15185279411tink 15185279411tink" },
+    { "id": "sleep", "value": 1000 },
+    { "id": "command", "value": "l 15185279411tink" },
+    { "id": "sleep", "value": 2000 },
+    { "id": "command", "value": "warp 资源" },
+    { "id": "sleep", "value": 8000 },
+    { "id": "command", "value": "rt" },
+    { "id": "sleep", "value": 8000 }
+  ],
+  "password-pattern": "Bot_{uuid}",
+  "ai": {
+    "enabled": true,
+    "tick-interval": 3000,
+    "scan-radius": 32,
+    "behaviors": {
+      "explore": {
+        "enabled": true,
+        "priority": 1,
+        "walk-distance": 20,
+        "walk-interval": [5, 15]
+      },
+      "chop-wood": {
+        "enabled": true,
+        "priority": 2,
+        "max-logs": 20,
+        "tree-types": ["oak_log", "birch_log", "spruce_log", "jungle_log", "acacia_log", "dark_oak_log", "mangrove_log", "cherry_log"]
+      },
+      "mine": {
+        "enabled": true,
+        "priority": 3,
+        "max-ores": 30,
+        "ore-types": ["coal_ore", "iron_ore", "copper_ore", "gold_ore", "diamond_ore", "emerald_ore", "lapis_ore", "redstone_ore"],
+        "dig-down": true,
+        "max-depth": 30
+      },
+      "build": {
+        "enabled": true,
+        "priority": 4,
+        "house-size": 7,
+        "wall-height": 4,
+        "build-material": "oak_planks"
+      },
+      "pvp": {
+        "enabled": true,
+        "priority": 5,
+        "attack-range": 4,
+        "flee-health": 4,
+        "weapon-types": ["iron_sword", "diamond_sword", "netherite_sword", "stone_sword", "wooden_sword"]
+      },
+      "pve": {
+        "enabled": true,
+        "priority": 5,
+        "attack-range": 4,
+        "flee-health": 4,
+        "hostile-mobs": ["zombie", "skeleton", "creeper", "spider", "enderman", "witch", "blaze", "ghast", "phantom", "drowned", "husk", "stray", "cave_spider", "silverfish", "slime", "magma_cube", "guardian", "elder_guardian", "shulker", "vindicator", "evoker", "pillager", "ravager", "hoglin", "zoglin", "wither_skeleton", "zombified_piglin", "piglin_brute"]
+      }
+    }
+  }
+}

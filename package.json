@@ -1,0 +1,16 @@
+{
+  "name": "zyxz-bot",
+  "version": "1.0.0",
+  "description": "zyxz插件 - Node.js机器人服务",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "generate": "node main.js generate"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "@faker-js/faker": "^8.4.1",
+    "pinyin-pro": "^3.19.6"
+  }
+}
