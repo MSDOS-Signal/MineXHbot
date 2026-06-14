@@ -1,4 +1,4 @@
-# ZYXZ Minecraft 机器人
+# Xinhao Minecraft 机器人
 
 基于 mineflayer 的 Minecraft 智能机器人系统，支持自动注册登录、AI 行为（探索、砍树、挖矿、建造、PvP、PvE）。
 
